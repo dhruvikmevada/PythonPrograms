@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 ''' Date: 3/12/2019
     Developer: Dhruvik Mevada <cyb3rsky@gmail.com>
     
