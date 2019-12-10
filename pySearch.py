@@ -6,17 +6,17 @@
 
 import webbrowser
 
-def playvideo(search_query):
+def playvideo(search_query):  # Function for youtube search
 
     url = 'https://www.youtube.com/search?q=' + search_query
     webbrowser.open(url)
 
-def search_content(search_query):
+def search_content(search_query):  # Function for google search
 
     url = 'https://www.google.com/search?q=' + search_query
     webbrowser.open(url)
 
-def search_game(search_query):
+def search_game(search_query):  # Function for steam search
     url = 'https://store.steampowered.com/search/?term=' + search_query
     webbrowser.open(url)
 
