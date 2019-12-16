@@ -16,7 +16,7 @@ class ipcheck():
         if not re.match(r'(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})', ip) or any(a not in range(0,256) for a in map(int, ip.split('.'))):
                 print('Invalid')
         else:
-            print(ip)
+            print("This is a valid IP address")
 
 def main():
 
