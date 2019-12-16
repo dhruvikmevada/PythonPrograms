@@ -15,7 +15,6 @@ class ipcheck():
         #  \d = match any digit in given string. \d{1,3} - match digits upto 3 counts only
         if not re.match(r'(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})', ip) or any(a not in range(0,256) for a in map(int, ip.split('.'))):
                 print('Invalid')
-                # print('Not valid')
         else:
             print(ip)
 
